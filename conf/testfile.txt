@@ -1,1 +1,5 @@
 Hello Docker!
+
+Find special version for debian:
+
+https://packages.debian.org/search?searchon=names&keywords=default-jre

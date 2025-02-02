@@ -18,7 +18,7 @@ RUN mkdir -p /download && \
   rm -rf /download
 
 #Copy conf files
-COPY ./conf /apache-tomcat-9.0.98/copy
+COPY /src /apache-tomcat-9.0.98
 
 # Umgebungsvariablen für Tomcat und Java setzen
 ENV CATALINA_HOME=/apache-tomcat-9.0.98
